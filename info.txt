@@ -1,0 +1,33 @@
+Going to be using trimesh in py to convert files to glTF
+
+https://github.com/mikedh/trimesh -> MIT Licence
+
+pip install trimesh[easy]
+
+(pip install trimesh --user)<-- something that came up for one of my computers
+
+
+-By Running convert.py all .stl files in testfolder will have .glb versions created
+
+
+
+
+
+
+
+
+
+--Notes from when learning trimesh and os--
+mesh = trimesh.load('file.stl')
+
+https://trimsh.org/trimesh.exchange.gltf.html
+	shows how to export file as glTF for future use
+
+python os module
+can choose files under directory with:
+	path = 'path'
+	os.chdir(path)
+	for file in os.listdir():
+		if file.endswitch('.txt'):
+			file_path = f'{path}\{file}'
+			read_text_file(file_path)
