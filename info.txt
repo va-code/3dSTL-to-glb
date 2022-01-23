@@ -11,12 +11,6 @@ pip install trimesh[easy]
 
 
 
-
-
-
-
-
-
 --Notes from when learning trimesh and os--
 mesh = trimesh.load('file.stl')
 
@@ -31,3 +25,10 @@ can choose files under directory with:
 		if file.endswitch('.txt'):
 			file_path = f'{path}\{file}'
 			read_text_file(file_path)
+
+
+
+--going to be adding more functionallity specific to my website's usage 
+	->git clone/pull
+	->glb conversion, glbarrangement.json(to control positioning)
+	->folder and files for testing functionallity
